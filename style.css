@@ -1,0 +1,249 @@
+*, ::before, ::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+
+body{
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+}
+header{
+	background-color: #2D25A0;
+	height: auto;
+
+}
+
+.container{
+	max-width: 1164px;
+	width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+/*    justify-content: space-between;*/
+justify-content: space-around;
+    align-items: center;
+/*    margin: 0 20px;*/
+    padding: 20px 0;
+
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+
+}
+ul li{
+	list-style: none;
+	color: #fff;
+	 cursor: pointer;
+}
+
+.login-btn {
+    width: 123px;
+    height: 44px;
+    padding: 10px 24px 10px 24px;
+    background-color: #E02C6D;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+i.fa-solid.fa-right-to-bracket {
+    padding-right: 5px;
+}
+
+
+.banner-area {
+    display: flex;
+	justify-content: space-around;
+    align-items: center;
+	margin: 20px 0 20px 0;
+   padding-bottom: 20px;
+
+}
+.banner-text {
+    padding-left: 30px;
+}
+
+.banner-text h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #fff;
+}
+
+button.button-watch {
+    width: 168px;
+    height: 44px;
+    cursor: pointer;
+    boarder-redius: 5px;
+    background: #E02C6D;
+    padding: 10px 24px 10px 24px;
+    border: 0;
+   	color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+i.fa-solid.fa-arrow-right {
+    padding-left: 10px;
+}
+
+.banner-img  img{
+    width: 420px;
+}
+
+.image {
+	width: 100%;
+}
+
+#project {
+    margin-top: 50px;
+    padding-left: 38px;
+}
+.project-set-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+/*    flex-direction: column;*/
+}
+
+.project-img {
+    width: 300px;
+    height: 256px;
+}
+.project-text{
+	width: 300px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.project-text h2{
+	font-size: 28px;
+    font-weight: 700;
+}
+.project-text p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.project-area-1{
+    width: 300px;
+    height: 426px;
+    background: #fff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.footer-blog-area {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    width: 469px;
+    padding-left: 26px;
+}
+.footer-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.footer-text  p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 12px;
+}
+
+button.button-watch-now {
+    width: 172px;
+    height: 44px;
+    margin-top: 20px;
+    background: #E02C6D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-blog-area img.image1 {
+    width: 467px;
+    height: 327px;
+}
+
+
+img.image3 {
+    width: 262px;
+    height: 110px;
+}
+
+.social-media-area {
+    text-align: center;
+}
+
+.social-media-text-area {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.social-media-area .social-media-text-area h2 {
+    font-size: 72px;
+    font-weight: 400;
+    font-family: Niconne;
+}
+
+i.fa-brands.fa-instagram {
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    background: #b2b2b5;
+    padding-top: 8px;
+    border-radius: 23px;
+    margin-right: 5px;
+}
+
+i.fa-solid.fa-basketball {
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    background: #b2b2b5;
+    padding-top: 8px;
+    border-radius: 23px;
+    margin-right: 5px;
+}
+
+i.fa-brands.fa-twitter {
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    background: #b2b2b5;
+    padding-top: 8px;
+    border-radius: 23px;
+    margin-right: 5px;
+}
+i.fa-brands.fa-youtube {
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    background: #b2b2b5;
+    padding-top: 8px;
+    border-radius: 23px;
+    margin-right: 5px;
+}
+
+.copyright {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px;
+}
